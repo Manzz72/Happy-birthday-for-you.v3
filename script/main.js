@@ -86,13 +86,13 @@ document.addEventListener("DOMContentLoaded", async () => {
   // SweetAlert music prompt
   const isDark = currentMode === "dark";
   Swal.fire({
-    title: "Play music in the background?",
+    title: "mau pake lagu?",
     icon: "question",
     showCancelButton: true,
     confirmButtonColor: CONFIG.colors.accent || "#3085d6",
     cancelButtonColor: "#888",
-    confirmButtonText: "Yes!",
-    cancelButtonText: "No",
+    confirmButtonText: "iya!",
+    cancelButtonText: "tidak",
     background: isDark ? "#1e293b" : "#ffffff",
     color: isDark ? "#f1f5f9" : "#1e293b",
   }).then((result) => {
@@ -107,7 +107,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 function buildTimeline(rendered) {
   const tl = gsap.timeline();
 
-  tl.to(".container", { duration: 0.6, visibility: "visible" });
+  tl.to(".container", { duration: 5, visibility: "visible" });
 
   // Track deferred exits for overlay components
   let deferredExits = [];
