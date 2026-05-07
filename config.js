@@ -27,8 +27,8 @@
 
 const CONFIG = {
   // ── Recipient Info ────────────────────────────────────────────
-  name: "Irene",
-  photo: "./img/irene.jpg",       // Place your photo in the img/ folder
+  name: "amy",
+  photo: "./img/amy.jpg",       // Place your photo in the img/ folder
   music: "./music/hbd.mpeg",      // Place your music in the music/ folder
 
   // ── Theme Colors ──────────────────────────────────────────────
@@ -56,7 +56,7 @@ const CONFIG = {
     {
       type: "greeting",
       title: "Hi",
-      subtitle: "I really like your name btw!",
+      subtitle: "aku ada sesuatu nih buat kamu",
     },
     {
       type: "countdown",
@@ -65,29 +65,43 @@ const CONFIG = {
     },
     {
       type: "announcement",
-      text: "It's your birthday!! :D",
+      text: "Selamat ulang tahun ya 🎉"
     },
     {
       type: "chatbox",
       message:
-        "Happy birthday to youu!! Wishing you a wonderful year ahead filled with joy, love, and endless happiness!",
+        "Selamat ulang tahun ya hari ini benar-benar spesial sama seperti kamu,satu tahun telah berlalu dengan cerita yang indah.",
       buttonText: "Send",
     },
     {
       type: "ideas",
       lines: [
-        "That's what I was going to do.",
-        "But then I stopped.",
-        "I realised, I wanted to do something <strong>special</strong>.",
-        "Because,",
-        "You are Special <span>:)</span>",
+        "kamu tau nggak..?",
+        "kamu itu berarti lebih dari yang kamu kira itulah kenapa di hari ini aku cuma mau bilang",
+        "<strong>terima kasih</strong> sudah ada",
+        "<strong>terima kasih</strong> untuk semuanya",
+        "<strong>terima kasih</strong> sudah jadi kamu.",
+        "aku doakan yang terbaik",
+        "semoga harimu lebih cerah dan malammu tenang",
+        "terus kejar impianmu walaupun terasa jauh,",
+        "kamu lebih kuat dari yang kamu kira dan lebih hebat dari yang kamu rasa",
+        "jangan pernah berhenti percaya pada dirimu sendiri",
+        "karena suatu hari nanti semuanya akan terasa berarti",
+        "dan semua usahamu akan jadi sesuatu yang indah",
+        "jadi tetap semangat dan jangan menyerah",
+        "aku selalu ada diam-diam mendukung kamu dari tempatku sekarang",
+        "sekali lagi...",
+        "aku doakan yang terbaik",
+        "selamat ulang tahun neng amy aulia 🎂",
+        "semoga hidupmu penuh kebahagiaan ✨",
+        "“I’ll always be here for you.” <span>:)</span>",
       ],
       bigLetters: "SO",
     },
     {
       type: "quote",
-      text: "The more you praise and celebrate your life, the more there is in life to celebrate.",
-      author: "Oprah Winfrey",
+      text: "“Bahagia bukan tentang memiliki segalanya, tapi tentang mensyukuri yang ada.” 🤍",
+      author: "siniakubahagiain",
     },
     {
       type: "stars",
@@ -100,7 +114,7 @@ const CONFIG = {
     {
       type: "profile",
       wishTitle: "Happy Birthday!",
-      wishText: "May the js.prototypes always be with you! ;)",
+      wishText: "i'm always be with you! ;)",
     },
     {
       type: "fireworks",
